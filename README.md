@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# EV Charging Price Comparison
 
-## Getting Started
+Ein Open-Source Next.js-Projekt zum Vergleich von Ladetarifen verschiedener E-Auto-Ladeanbieter.
 
-First, run the development server:
+## Features
+
+- Vergleich von AC/DC-Ladepreisen, Roaming-Preisen, Grundgebühren und mehr
+- Flexible Filter: Roaming, Grundgebühr, unterstützte Netzwerke
+- Interaktive Eingabe: km/Monat, Verbrauch, AC/DC-Anteil, Roaming-Anteil
+- Dynamisches Preisdiagramm und detaillierte Ergebnistabelle
+- Provider-Profile als JSON-Dateien im `providers/`-Ordner
+- Responsive UI mit [MUI](https://mui.com/)
+- Datenschutz- und Impressum-Seiten
+- Branding für [camefrom.space](https://camefrom.space)
+
+## Schnellstart
+
+1. Repository klonen und Abhängigkeiten installieren:
+
+```bash
+npm install
+```
+
+2. Entwicklungsserver starten:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Im Browser öffnen: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Provider hinzufügen
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Lege im Ordner `providers/` eine neue `.json`-Datei an, z.B. `mein-anbieter.json`:
 
-## Learn More
+```json
+{
+  "name": "Mein Anbieter",
+  "acPrice": 0.39,
+  "dcPrice": 0.49,
+  "acRoamingPrice": 0.45,
+  "dcRoamingPrice": 0.55,
+  "basicFee": 4.99,
+  "supportedNetworks": ["EnBW", "IONITY"],
+  "chargingStations": 12000,
+  "country": "Deutschland",
+  "footnote": "Preise Stand 04/2025",
+  "comment": "Günstig bei AC, solide bei DC.",
+  "link": "https://anbieter.de",
+  "isAffiliate": false,
+  "hidden": false
+}
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Rechtliches
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Alle Preise können sich ändern. Es wird keine Gewähr für die Richtigkeit und Aktualität der Angaben übernommen. Siehe auch [Impressum](/imprint) und [Datenschutz](/privacy).
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Mitmachen & Feedback:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Pull Requests, Issues und neue Provider-Profile sind willkommen!
+
+---
+
+(c) {new Date().getFullYear()} camefrom.space
