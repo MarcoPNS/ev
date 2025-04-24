@@ -1,0 +1,16 @@
+{
+  "name": "ladenetz.de / Düsselstrom mobil",
+  "acPrice": 0.47,
+  "dcPrice": 0.59,
+  "acRoamingPrice": 0.56,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 3.00,
+  "supportedNetworks": ["ladenetz.de"],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "",
+  "comment": "Grundgebühr gilt pro Ladekarte und Monat. Gebühr entfällt, wenn Umsatz höher als 3€. Ionity hat höhere Kosten: 0,89€ pro kWh.",
+  "link": "https://swd-ag.ladecloud.de/contract",
+  "isAffiliate": false,
+  "hidden": false
+}

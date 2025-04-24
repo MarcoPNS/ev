@@ -1,0 +1,16 @@
+{
+  "name": "ladenetz.de / Komfort",
+  "acPrice": 0.55,
+  "dcPrice": 0.68,
+  "acRoamingPrice": 0.62,
+  "dcRoamingPrice": 0.89,
+  "basicFee": 6.90,
+  "supportedNetworks": ["ladenetz.de"],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "",
+  "comment": "Ladekarte muss zwingend mitbestellt werden für 4,90€.",
+  "link": "https://smartlab.ladecloud.de/contract",
+  "isAffiliate": false,
+  "hidden": false
+}

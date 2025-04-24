@@ -1,0 +1,16 @@
+{
+  "name": "BeispielProvider",
+  "acPrice": 0.39,
+  "dcPrice": 0.49,
+  "acRoamingPrice": 0.45,
+  "dcRoamingPrice": 0.55,
+  "basicFee": 4.99,
+  "supportedNetworks": ["EnBW", "IONITY"],
+  "chargingStations": 12000,
+  "country": "Deutschland",
+  "footnote": "Preise Stand 04/2025",
+  "comment": "Günstig bei AC, solide bei DC.",
+  "link": "",
+  "isAffiliate": false,
+  "hidden": true
+}

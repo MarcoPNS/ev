@@ -1,0 +1,16 @@
+{
+  "name": "Lidl / Kaufland",
+  "acPrice": 0.29,
+  "dcPrice": 0.44,
+  "acRoamingPrice": null,
+  "dcRoamingPrice": null,
+  "basicFee": 0.0,
+  "supportedNetworks": ["Lidl", "Kaufland"],
+  "chargingStations": 5500,
+  "country": "DE",
+  "footnote": "",
+  "comment": "",
+  "link": "https://www.lidl.de/c/e-ladesaeulen/s10007751",
+  "isAffiliate": false,
+  "hidden": false
+}

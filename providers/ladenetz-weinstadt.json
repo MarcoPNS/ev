@@ -1,0 +1,16 @@
+{
+  "name": "ladenetz.de / Stadtwerke Weinstadt",
+  "acPrice": 0.55,
+  "dcPrice": 0.70,
+  "acRoamingPrice": null,
+  "dcRoamingPrice": null,
+  "basicFee": 4.99,
+  "supportedNetworks": ["ladenetz.de"],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "",
+  "comment": "Grundgebühr gilt pro Ladekarte. Ladepreis innerhalb Weinstadt liegt bei: 0,40€/kWh (AC/DC). Um eine klare Abgrenzung zu schaffen, wird der Preis für die ladenetz.de Partner angegeben.",
+  "link": "https://deaaa.ladecloud.de/contract",
+  "isAffiliate": false,
+  "hidden": false
+}

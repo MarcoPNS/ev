@@ -1,0 +1,16 @@
+{
+  "name": "EnBW mobility+ Ladetarif M",
+  "acPrice": 0.49,
+  "dcPrice": 0.49,
+  "acRoamingPrice": 0.89,
+  "dcRoamingPrice": 0.89,
+  "basicFee": 5.99,
+  "supportedNetworks": ["EnBW"],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "",
+  "comment": "",
+  "link": "https://www.enbw.com/elektromobilitaet/produkte/ladetarife#pk-elektromobilitaet-produkte-ladetarife-tarifkacheln-tarif2",
+  "isAffiliate": false,
+  "hidden": false
+}

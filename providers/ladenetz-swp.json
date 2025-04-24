@@ -1,0 +1,16 @@
+{
+  "name": "ladenetz.de / SWP Basic",
+  "acPrice": 0.50,
+  "dcPrice": 0.60,
+  "acRoamingPrice": 0.60,
+  "dcRoamingPrice": 0.70,
+  "basicFee": 5.00,
+  "supportedNetworks": ["ladenetz.de"],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "",
+  "comment": "Grundgebühr gilt pro Ladekarte.",
+  "link": "https://swp.ladecloud.de/contract",
+  "isAffiliate": false,
+  "hidden": false
+}
