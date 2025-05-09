@@ -1,0 +1,16 @@
+{
+  "name": "ladenetz.de / 17er Autostrom",
+  "acPrice": 0.42,
+  "dcPrice": 0.52,
+  "acRoamingPrice": 0.48,
+  "dcRoamingPrice": 0.58,
+  "basicFee": 6.90,
+  "supportedNetworks": ["ladenetz.de"],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "",
+  "comment": "Ionity deutlich teuer (0,79€) und 9,99€ wird einmal fällig",
+  "link": "https://17er.ladecloud.de/contract",
+  "isAffiliate": false,
+  "hidden": false
+}

@@ -36,6 +36,7 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+import zoomPlugin from "chartjs-plugin-zoom";
 
 ChartJS.register(
   CategoryScale,
@@ -44,7 +45,8 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  zoomPlugin // Zoom-Plugin registrieren
 );
 
 export default function ProvidersClient({ providers }) {
@@ -149,6 +151,28 @@ export default function ProvidersClient({ providers }) {
     })),
   };
 
+  const chartOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      zoom: {
+        zoom: {
+          wheel: {
+            enabled: true, // Zoom mit dem Mausrad aktivieren
+          },
+          pinch: {
+            enabled: true, // Zoom mit Pinch-Gesten aktivieren
+          },
+          mode: "x", // Nur horizontal zoomen
+        },
+        pan: {
+          enabled: true, // Verschieben aktivieren
+          mode: "x", // Nur horizontal verschieben
+        },
+      },
+    },
+  };
+
   // Sortierfunktion
   function getSortValue(r, key) {
     if (key === "name") return r.name.toLowerCase();
@@ -240,7 +264,7 @@ export default function ProvidersClient({ providers }) {
         </Select>
       </Box>
       <Box sx={{ bgcolor: "#fff", p: 2, borderRadius: 2, mb: 4, minHeight: 340 }}>
-        <Line data={chartData} options={{ responsive: true, maintainAspectRatio: false }} height={320} />
+        <Line data={chartData} options={chartOptions} height={320} />
       </Box>
       <TableContainer component={Paper} sx={{ mb: 4 }}>
         <Table size="small">
@@ -313,3 +337,4 @@ export default function ProvidersClient({ providers }) {
     </Box>
   );
 }
+
