@@ -1,0 +1,16 @@
+{
+  "name": "SWM München",
+  "acPrice": 0.42,
+  "dcPrice": 0.55,
+  "acRoamingPrice": null,
+  "dcRoamingPrice": null,
+  "basicFee": 0.0,
+  "supportedNetworks": ["SWM"],
+  "chargingStations": 550,
+  "country": "DE",
+  "footnote": "",
+  "comment": "",
+  "link": "https://www.swm.de/elektromobilitaet/oeffentliche-ladestationen",
+  "isAffiliate": false,
+  "hidden": false
+}
