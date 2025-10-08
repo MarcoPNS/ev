@@ -50,6 +50,7 @@ ChartJS.register(
 );
 
 export default function ProvidersClient({ providers }) {
+    const [mounted, setMounted] = useState(false);
     const [params, setParams] = useState({
         km: 1000,
         kwhPer100km: 15,
@@ -63,6 +64,7 @@ export default function ProvidersClient({ providers }) {
       });
       
       useEffect(() => {
+        setMounted(true);
         const saved = localStorage.getItem("ev_params");
         if (saved) setParams(JSON.parse(saved));
         const savedFilters = localStorage.getItem("ev_filters");
@@ -70,11 +72,15 @@ export default function ProvidersClient({ providers }) {
       }, []);
       
       useEffect(() => {
-        localStorage.setItem("ev_params", JSON.stringify(params));
-      }, [params]);
+        if (mounted) {
+          localStorage.setItem("ev_params", JSON.stringify(params));
+        }
+      }, [params, mounted]);
       useEffect(() => {
-        localStorage.setItem("ev_filters", JSON.stringify(filters));
-      }, [filters]);
+        if (mounted) {
+          localStorage.setItem("ev_filters", JSON.stringify(filters));
+        }
+      }, [filters, mounted]);
   const [commentPopup, setCommentPopup] = useState({ open: false, text: "" });
   const [sort, setSort] = useState({ key: "total", dir: "asc" });
 

@@ -27,8 +27,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
         <div id="app-root">
           <CssBaseline />
           <AppBar position="static" color="default" elevation={0} sx={{ borderBottom: 1, borderColor: 'divider', mb: 3 }}>
