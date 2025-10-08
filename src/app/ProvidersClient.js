@@ -36,7 +36,6 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
-import zoomPlugin from "chartjs-plugin-zoom";
 
 ChartJS.register(
   CategoryScale,
@@ -46,7 +45,6 @@ ChartJS.register(
   Title,
   Tooltip,
   Legend,
-  zoomPlugin // Zoom-Plugin registrieren
 );
 
 export default function ProvidersClient({ providers }) {
