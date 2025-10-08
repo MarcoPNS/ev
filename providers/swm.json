@@ -1,0 +1,16 @@
+{
+  "name": "SWM München",
+  "acPrice": 0.49,
+  "dcPrice": 0.69,
+  "acRoamingPrice": null,
+  "dcRoamingPrice": null,
+  "basicFee": 0.0,
+  "supportedNetworks": ["SWM", "ladenetz.de"],
+  "chargingStations": 550,
+  "country": "DE",
+  "footnote": "Karte einmalig 11,90 €",
+  "comment": "",
+  "link": "https://www.swm.de/elektromobilitaet/oeffentliche-ladestationen",
+  "isAffiliate": false,
+  "hidden": false
+}
