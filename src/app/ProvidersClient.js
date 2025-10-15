@@ -3,49 +3,9 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import TextField from "@mui/material/TextField";
-import InputAdornment from "@mui/material/InputAdornment";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
-import MenuItem from "@mui/material/MenuItem";
-import Select from "@mui/material/Select";
-import Button from "@mui/material/Button";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
-import Paper from "@mui/material/Paper";
-import IconButton from "@mui/material/IconButton";
-import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
-import Dialog from '@mui/material/Dialog';
-import DialogTitle from '@mui/material/DialogTitle';
-import DialogContent from '@mui/material/DialogContent';
-import DialogActions from '@mui/material/DialogActions';
-import CloseIcon from '@mui/icons-material/Close';
-import Link from '@mui/material/Link';
-import { Line } from "react-chartjs-2";
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
-
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-);
+import ProviderForm from "../components/ProviderForm";
+import ProviderChart from "../components/ProviderChart";
+import ProviderTable from "../components/ProviderTable";
 
 export default function ProvidersClient({ providers }) {
     const [mounted, setMounted] = useState(false);
@@ -155,28 +115,6 @@ export default function ProvidersClient({ providers }) {
     })),
   };
 
-  const chartOptions = {
-    responsive: true,
-    maintainAspectRatio: false,
-    plugins: {
-      zoom: {
-        zoom: {
-          wheel: {
-            enabled: true, // Zoom mit dem Mausrad aktivieren
-          },
-          pinch: {
-            enabled: true, // Zoom mit Pinch-Gesten aktivieren
-          },
-          mode: "x", // Nur horizontal zoomen
-        },
-        pan: {
-          enabled: true, // Verschieben aktivieren
-          mode: "x", // Nur horizontal verschieben
-        },
-      },
-    },
-  };
-
   // Sortierfunktion
   function getSortValue(r, key) {
     if (key === "name") return r.name.toLowerCase();
@@ -214,131 +152,20 @@ export default function ProvidersClient({ providers }) {
 
   return (
     <Box sx={{ maxWidth: 1200, mx: "auto", p: 3 }}>
-      <Typography variant="h3" component="h1" gutterBottom>EV-Ladepreis-Vergleich</Typography>
-      <Box component="form" sx={{ display: "flex", gap: 2, flexWrap: "wrap", mb: 4, alignItems: 'center' }}>
-        <TextField
-          label="km/Monat"
-          type="number"
-          value={params.km}
-          onChange={e => setParams({ ...params, km: +e.target.value })}
-          InputProps={{ endAdornment: <InputAdornment position="end">km</InputAdornment> }}
-          sx={{ width: 120 }}
+        <Typography variant="h3" component="h1" gutterBottom>EV-Ladepreis-Vergleich</Typography>
+        <ProviderForm
+            params={params}
+            setParams={setParams}
+            filters={filters}
+            setFilters={setFilters}
+            allNetworks={allNetworks}
         />
-        <TextField
-          label="kWh/100km"
-          type="number"
-          value={params.kwhPer100km}
-          onChange={e => setParams({ ...params, kwhPer100km: +e.target.value })}
-          InputProps={{ endAdornment: <InputAdornment position="end">kWh</InputAdornment> }}
-          sx={{ width: 120 }}
+        <ProviderChart chartData={chartData} />
+        <ProviderTable
+            sortedResults={sortedResults}
+            setCommentPopup={setCommentPopup}
+            commentPopup={commentPopup}
         />
-        <TextField
-          label="AC-Anteil (%)"
-          type="number"
-          value={params.acShare}
-          onChange={e => setParams({ ...params, acShare: +e.target.value })}
-          InputProps={{ endAdornment: <InputAdornment position="end">%</InputAdornment> }}
-          sx={{ width: 120 }}
-        />
-        <TextField
-          label="Roaming-Anteil (%)"
-          type="number"
-          value={params.roamingShare}
-          onChange={e => setParams({ ...params, roamingShare: +e.target.value })}
-          InputProps={{ endAdornment: <InputAdornment position="end">%</InputAdornment> }}
-          sx={{ width: 120 }}
-        />
-        <FormControlLabel
-          control={<Checkbox checked={filters.hideNoRoaming} onChange={e => setFilters(f => ({ ...f, hideNoRoaming: e.target.checked }))} />}
-          label="Nur Anbieter mit Roaming"
-        />
-        <FormControlLabel
-          control={<Checkbox checked={filters.hideBaseFee} onChange={e => setFilters(f => ({ ...f, hideBaseFee: e.target.checked }))} />}
-          label="Nur Anbieter ohne Grundgebühr"
-        />
-        <Select
-          value={filters.network}
-          onChange={e => setFilters(f => ({ ...f, network: e.target.value }))}
-          sx={{ minWidth: 180 }}
-        >
-          <MenuItem value="all">Alle Netzwerke</MenuItem>
-          {allNetworks.map(n => (
-            <MenuItem key={n} value={n}>{n}</MenuItem>
-          ))}
-        </Select>
-      </Box>
-      <Box sx={{ bgcolor: "#fff", p: 2, borderRadius: 2, mb: 4, minHeight: 340 }}>
-        <Line data={chartData} options={chartOptions} height={320} />
-      </Box>
-      <TableContainer component={Paper} sx={{ mb: 4 }}>
-        <Table size="small">
-          <TableHead>
-            <TableRow>
-              <TableCell>Anbieter</TableCell>
-              <TableCell>Grundgebühr (€)</TableCell>
-              <TableCell>AC-Preis</TableCell>
-              <TableCell>DC-Preis</TableCell>
-              <TableCell>AC Roaming</TableCell>
-              <TableCell>DC Roaming</TableCell>
-              <TableCell>Netzwerke</TableCell>
-              <TableCell>Ladestationen</TableCell>
-              <TableCell>Land</TableCell>
-              <TableCell>Monatspreis (€)</TableCell>
-              <TableCell>Info</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {sortedResults.map((r) => (
-              <TableRow key={r.name}>
-                <TableCell>{r.link ? (
-                  <Link href={r.link} target="_blank" rel={r.isAffiliate ? "nofollow sponsored" : "noopener noreferrer"} sx={r.isAffiliate ? { color: '#1976d2', fontWeight: 'bold' } : {}}>
-                    {r.name}{r.isAffiliate ? ' *' : ''}
-                  </Link>
-                ) : r.name}</TableCell>
-                <TableCell>{safePrice(r.basicFee).toFixed(2)}</TableCell>
-                <TableCell>{safePrice(r.acPrice).toFixed(2)}</TableCell>
-                <TableCell>{safePrice(r.dcPrice).toFixed(2)}</TableCell>
-                <TableCell>{(r.roamingAvailable === false || safePrice(r.acRoamingPrice) === 0) ? 'n.a.' : safePrice(r.acRoamingPrice).toFixed(2)}</TableCell>
-                <TableCell>{(r.roamingAvailable === false || safePrice(r.dcRoamingPrice) === 0) ? 'n.a.' : safePrice(r.dcRoamingPrice).toFixed(2)}</TableCell>
-                <TableCell>{r.supportedNetworks.join(", ")}</TableCell>
-                <TableCell>{r.chargingStations}</TableCell>
-                <TableCell>{r.country}</TableCell>
-                <TableCell><b>{r.total.toFixed(2)}</b></TableCell>
-                <TableCell>
-                  {r.comment ? (
-                    <IconButton size="small" onClick={() => setCommentPopup({ open: true, text: r.comment })} title="Kommentar anzeigen">
-                      <InfoOutlinedIcon fontSize="small" />
-                    </IconButton>
-                  ) : null}
-                </TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-      <Box sx={{ mt: 2, fontSize: 13, color: '#666' }}>
-        {results.map((r) => r.footnote && (
-          <div key={r.name + "-footnote"}>{r.name}: {r.footnote}</div>
-        ))}
-      </Box>
-      <Dialog open={commentPopup.open} onClose={() => setCommentPopup({ open: false, text: "" })}>
-        <DialogTitle>Info
-          <IconButton
-            aria-label="close"
-            onClick={() => setCommentPopup({ open: false, text: "" })}
-            sx={{ position: 'absolute', right: 8, top: 8 }}
-          >
-            <CloseIcon />
-          </IconButton>
-        </DialogTitle>
-        <DialogContent dividers>
-          <Typography>{commentPopup.text}</Typography>
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={() => setCommentPopup({ open: false, text: "" })} color="primary">Schließen</Button>
-        </DialogActions>
-      </Dialog>
     </Box>
   );
 }
-
