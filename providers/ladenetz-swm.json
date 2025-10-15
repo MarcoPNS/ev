@@ -8,8 +8,8 @@
   "supportedNetworks": ["SWM", "ladenetz.de"],
   "chargingStations": 550,
   "country": "DE",
-  "footnote": "Karte einmalig 11,90 €",
-  "comment": "",
+  "footnote": "",
+  "comment": "Karte einmalig 11,90 €",
   "link": "https://www.swm.de/elektromobilitaet/oeffentliche-ladestationen",
   "isAffiliate": false,
   "hidden": false
