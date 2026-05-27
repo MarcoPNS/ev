@@ -8,7 +8,6 @@
   "supportedNetworks": [
     "ladenetz.de"
   ],
-  "chargingStations": 800000,
   "country": "DE",
   "footnote": "Auto-imported on 5/27/2026",
   "comment": "Card fee once: €2.90 Max 1 cards ² Im Zeitraum von 06:00 Uhr bis 21:00 Uhr wird zzgl. ein Minutenpreis erhoben: AC: ab 181. Minute zzgl. 0,10€/min DC: ab 91. Minute zzgl. 0,10€/min",

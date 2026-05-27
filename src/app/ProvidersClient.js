@@ -186,7 +186,6 @@ export default function ProvidersClient({ providers }) {
     if (key === "dcPrice") return r.dcPrice;
     if (key === "acRoamingPrice") return r.acRoamingPrice;
     if (key === "dcRoamingPrice") return r.dcRoamingPrice;
-    if (key === "chargingStations") return r.chargingStations;
     if (key === "country") return r.country;
     return r[key] || "";
   }
@@ -300,9 +299,6 @@ export default function ProvidersClient({ providers }) {
                 <TableCell>{safePrice(r.dcPrice).toFixed(2)}</TableCell>
                 <TableCell>{(r.roamingAvailable === false || safePrice(r.acRoamingPrice) === 0) ? 'n.a.' : safePrice(r.acRoamingPrice).toFixed(2)}</TableCell>
                 <TableCell>{(r.roamingAvailable === false || safePrice(r.dcRoamingPrice) === 0) ? 'n.a.' : safePrice(r.dcRoamingPrice).toFixed(2)}</TableCell>
-                <TableCell>{r.supportedNetworks.join(", ")}</TableCell>
-                <TableCell>{r.chargingStations}</TableCell>
-                <TableCell>{r.country}</TableCell>
                 <TableCell><b>{r.total.toFixed(2)}</b></TableCell>
                 <TableCell>
                   {r.comment ? (

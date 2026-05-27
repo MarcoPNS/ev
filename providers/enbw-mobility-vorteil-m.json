@@ -6,7 +6,6 @@
   "dcRoamingPrice": 0.89,
   "basicFee": 5.99,
   "supportedNetworks": ["EnBW"],
-  "chargingStations": 800000,
   "country": "DE",
   "footnote": "",
   "comment": "Nur für EnBW-Kunden (Gas/Strom) verfügbar.",

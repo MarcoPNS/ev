@@ -8,7 +8,6 @@
   "supportedNetworks": [
     "ladenetz.de"
   ],
-  "chargingStations": 800000,
   "country": "DE",
   "footnote": "Auto-imported on 5/27/2026",
   "comment": "Card fee once: €3.50 Max 5 cards Hinweis: Bei der Tarifauswahl empfehlen wir Ihnen die Strom-Verbrauchsmenge (Lademenge) in kWh pro Monat abzuschätzen. Ab einem Verbrauch von über 50 kWh im Monat lohnt sich die Wahl des Viellader-Tarifs. Dies entspricht einer Fahrleistung von etwa 3.500 km/a mit dem Elektro-Antrieb.",

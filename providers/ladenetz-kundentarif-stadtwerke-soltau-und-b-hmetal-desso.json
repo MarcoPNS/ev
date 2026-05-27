@@ -8,7 +8,6 @@
   "supportedNetworks": [
     "ladenetz.de"
   ],
-  "chargingStations": 800000,
   "country": "DE",
   "footnote": "Auto-imported on 5/27/2026",
   "comment": "Max 10 cards Blockiergebühren in der Zeit von 06:00-19:00 Uhr: AC Ladepunkte ab 240 Minuten - 0,07 €/Min. DC Ladepunkte ab 120 Minuten - 0,07 €/Min.",

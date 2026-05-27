@@ -8,7 +8,6 @@
   "supportedNetworks": [
     "ladenetz.de"
   ],
-  "chargingStations": 800000,
   "country": "DE",
   "footnote": "Auto-imported on 5/27/2026",
   "comment": "Card fee once: €9.90 Max 50 cards *Standzeitzuschlag gilt von 09:00 - 17:00 Uhr an AC-Stationen und von 08:00 - 20:00 Uhr an DC-Stationen (max. 12€ an SWT Stationen. Im Roaming ohne Zeitbeschränkung bis max. 30€)",

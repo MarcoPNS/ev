@@ -277,7 +277,6 @@ function mapContractOfferToProvider(contractOffer, provider, providerId, offerIn
     dcRoamingPrice: dcRoamingPrice !== null ? Number(dcRoamingPrice.toFixed(2)) : null,
     basicFee: Number(basicFee.toFixed(2)),
     supportedNetworks: ["ladenetz.de"],
-    chargingStations: 800000,
     country: "DE",
     footnote: `Auto-imported on ${new Date().toLocaleDateString("en-US")}`,
     comment: comments.length > 0 ? comments.join(" ") : "",

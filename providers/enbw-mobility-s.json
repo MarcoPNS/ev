@@ -6,7 +6,6 @@
   "dcRoamingPrice": 0.89,
   "basicFee": 0.00,
   "supportedNetworks": ["EnBW", "ladenetz.de"],
-  "chargingStations": 800000,
   "country": "DE",
   "footnote": "",
   "comment": "",

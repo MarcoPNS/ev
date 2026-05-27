@@ -6,7 +6,6 @@
   "dcRoamingPrice": 0.55,
   "basicFee": 4.99,
   "supportedNetworks": ["EnBW", "IONITY"],
-  "chargingStations": 12000,
   "country": "Deutschland",
   "footnote": "Preise Stand 04/2025",
   "comment": "Günstig bei AC, solide bei DC.",

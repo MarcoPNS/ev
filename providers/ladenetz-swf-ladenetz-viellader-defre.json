@@ -8,7 +8,6 @@
   "supportedNetworks": [
     "ladenetz.de"
   ],
-  "chargingStations": 800000,
   "country": "DE",
   "footnote": "Auto-imported on 5/27/2026",
   "comment": "Card fee once: €3.50 Max 5 cards Hinweis: Bei der Tarifauswahl empfehlen wir Ihnen die Strom-Verbrauchsmenge (Lademenge) in kWh pro Monat abzuschätzen. * Die Blockiergebühr wird ab der 241. Minute nach Start des Ladevorgangs, im Zeitraum 07:00-21:00 Uhr, berechnet.",
