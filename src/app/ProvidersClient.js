@@ -279,16 +279,13 @@ export default function ProvidersClient({ providers }) {
               <TableCell>DC-Preis</TableCell>
               <TableCell>AC Roaming</TableCell>
               <TableCell>DC Roaming</TableCell>
-              <TableCell>Netzwerke</TableCell>
-              <TableCell>Ladestationen</TableCell>
-              <TableCell>Land</TableCell>
               <TableCell>Monatspreis (€)</TableCell>
               <TableCell>Info</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {sortedResults.map((r) => (
-              <TableRow key={r.name}>
+              <TableRow key={r.sourceProviderId + r.name || r.name}>
                 <TableCell>{r.link ? (
                   <Link href={r.link} target="_blank" rel={r.isAffiliate ? "nofollow sponsored" : "noopener noreferrer"} sx={r.isAffiliate ? { color: '#1976d2', fontWeight: 'bold' } : {}}>
                     {r.name}{r.isAffiliate ? ' *' : ''}
