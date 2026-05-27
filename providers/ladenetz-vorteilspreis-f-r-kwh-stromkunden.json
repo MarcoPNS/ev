@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Vorteilspreis für KWH-Stromkunden",
+  "acPrice": 0.52,
+  "dcPrice": 0.62,
+  "acRoamingPrice": 0.61,
+  "dcRoamingPrice": 0.75,
+  "basicFee": 4.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 5 cards",
+  "link": "https://kwh.ladecloud.de/contract/details/db1bb111-92b6-4662-a94b-da6c1bc6f04d",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "af9325a7-9e71-4576-8d53-f649e27aff5c"
+}

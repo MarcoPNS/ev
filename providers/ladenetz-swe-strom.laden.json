@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / SWE Strom.laden",
+  "acPrice": 0.49,
+  "dcPrice": 0.59,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.74,
+  "basicFee": 3.5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 50 cards",
+  "link": "https://sw-erfurt.ladecloud.de/contract/details/8bf908d3-4abf-4390-9b5d-5bcd8e2bf304",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "0befb884-153d-4cbb-8238-68cec3aaf418"
+}

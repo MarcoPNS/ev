@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / VIB Mobil",
+  "acPrice": 0.55,
+  "dcPrice": 0.65,
+  "acRoamingPrice": 0.58,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 50 cards",
+  "link": "https://stw-vilsbiburg.ladecloud.de/contract/details/d48ce1fb-3ce3-46e5-89f8-6915678046d8",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "59ab6670-d988-4815-a28e-1dc079b500f0"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Normalpreis für Neukunden",
+  "acPrice": 0.54,
+  "dcPrice": 0.64,
+  "acRoamingPrice": 0.63,
+  "dcRoamingPrice": 0.77,
+  "basicFee": 7.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €9.95 Max 5 cards",
+  "link": "https://kwh.ladecloud.de/contract/details/0f6774cc-1e28-4b7b-bea2-61da049f22e4",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "af9325a7-9e71-4576-8d53-f649e27aff5c"
+}

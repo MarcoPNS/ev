@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / DER MANN Tarif",
+  "acPrice": 0.59,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.72,
+  "basicFee": 1.9,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €9.90 Max 50 cards",
+  "link": "https://mann-energie.ladecloud.de/contract/details/b1c1f1e6-a4ee-4b78-b552-bbad1c061616",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "4b3cc258-3f91-41d0-b18b-23246dfcc94a"
+}

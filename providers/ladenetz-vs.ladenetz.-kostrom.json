@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / vs.ladenetz.ökostrom",
+  "acPrice": 0.5,
+  "dcPrice": 0.62,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.7,
+  "basicFee": 10,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 50 cards",
+  "link": "https://vereinigte-stadtwerke.ladecloud.de/contract/details/284aa45a-def0-4be6-b316-8fb644cff824",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "587fdeb8-578d-4cb6-8784-a1b6e94764a3"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / ÖkoStrom Mobil Basic",
+  "acPrice": 0.55,
+  "dcPrice": 0.67,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.67,
+  "basicFee": 4.9,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 10 cards",
+  "link": "https://sw-ruesselsheim.ladecloud.de/contract/details/435b2a53-9eda-40cd-b038-a4cafcb8d11f",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "7252588d-aba5-4e0d-bddd-af82c4962a3c"
+}

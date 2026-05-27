@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / MWGeMobil",
+  "acPrice": 0.49,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.49,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 9.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 10 cards",
+  "link": "https://maintal-werke.ladecloud.de/contract/details/c89704a8-d4ee-4e0c-9171-3ad0117fb575",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "da402a00-25ba-4d68-84dd-75a4147d6114"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Gmünder Fahrstrom M",
+  "acPrice": 0.58,
+  "dcPrice": 0.68,
+  "acRoamingPrice": 0.58,
+  "dcRoamingPrice": 0.68,
+  "basicFee": 1,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €20.00 Max 10 cards",
+  "link": "https://gd-fahrstrom.ladecloud.de/contract/details/4c93eb0d-ab6f-4b93-947b-76feaaa91f3e",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "c8495b9e-b3af-4069-ab26-02f4d6637661"
+}

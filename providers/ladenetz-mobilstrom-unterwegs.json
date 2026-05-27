@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Mobilstrom Unterwegs",
+  "acPrice": 0.59,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.61,
+  "dcRoamingPrice": 0.86,
+  "basicFee": 1.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €11.99 Max 20 cards",
+  "link": "https://sw-luedenscheid.ladecloud.de/contract/details/31080845-9119-4881-89bd-9f39fa46645a",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "b7157c3e-108f-41af-a272-4fde50fc94e1"
+}

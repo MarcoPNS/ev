@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / WSW Strom eMobil",
+  "acPrice": 0.56,
+  "dcPrice": 0.75,
+  "acRoamingPrice": 0.56,
+  "dcRoamingPrice": 0.75,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €15.00 Max 5 cards",
+  "link": "https://wsw.ladecloud.de/contract/details/486bc2a0-ff91-4b67-991e-d97078c686a4",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "c91b8f07-236e-46e4-b01f-58dc4f31155b"
+}

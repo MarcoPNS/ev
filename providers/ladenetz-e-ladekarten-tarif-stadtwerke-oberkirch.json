@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / E-Ladekarten-Tarif Stadtwerke Oberkirch",
+  "acPrice": 0.54,
+  "dcPrice": 0.64,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.74,
+  "basicFee": 3,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 10 cards",
+  "link": "https://sw-oberkirch.ladecloud.de/contract/details/576727cc-6e4b-40ea-8929-6c7d5370a0b5",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "0a174bf2-e017-4b6a-a32e-b9570d3daea5"
+}

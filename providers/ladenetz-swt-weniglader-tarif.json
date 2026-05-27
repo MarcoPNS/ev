@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / SWT Weniglader Tarif",
+  "acPrice": 0.59,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €9.90 Max 5 cards",
+  "link": "https://swt.ladecloud.de/contract/details/7ca81732-0ecd-4a85-88a0-5e42ea00d207",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "fb84ad53-31ad-4e34-bdf3-ca9d041ffaf2"
+}

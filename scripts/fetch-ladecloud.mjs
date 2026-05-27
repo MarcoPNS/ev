@@ -55,7 +55,7 @@ let hasMore = true;
 while (hasMore) {
   const paginatedUrl = `${providersUrl}?page=${page}&pageSize=${pageSize}`;
   try {
-    const providersResponse = await fetchJson(paginatedUrl, apiKey);
+    const providersResponse = await fetchWithRetry(paginatedUrl, apiKey);
     const pageProviders = normalizeList(providersResponse, ["providers", "items", "data", "results"]);
 
     if (pageProviders.length === 0) {
@@ -96,7 +96,7 @@ const results = await Promise.allSettled(
     const offersUrl = `${contractOffersUrl}?providerId=${encodeURIComponent(String(providerId))}`;
 
     try {
-      const contractOffersResponse = await fetchJson(offersUrl, apiKey);
+      const contractOffersResponse = await fetchWithRetry(offersUrl, apiKey);
       const contractOffers = normalizeList(contractOffersResponse, [
         "contractOffers",
         "offers",
@@ -662,6 +662,38 @@ async function fetchJson(url, apiKey) {
   }
 }
 
+async function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function fetchWithRetry(url, apiKey, attempts = 2, baseDelayMs = 5000) {
+  let lastError = null;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      if (attempt > 1) {
+        const delay = baseDelayMs * attempt;
+        console.log(`  RETRY: Waiting ${delay}ms before retrying ${url} (attempt ${attempt}/${attempts})`);
+        await sleep(delay);
+      }
+      return await fetchJson(url, apiKey);
+    } catch (err) {
+      lastError = err;
+      const status = err?.statusCode;
+      console.warn(`  WARNING: Fetch failed for ${url} (attempt ${attempt}): ${err.message}`);
+      // If rate limited, wait a bit longer before next attempt
+      if (status === 429) {
+        const backoff = Math.max(baseDelayMs * 2, 5000);
+        console.warn(`    RATE_LIMIT detected (429). Backing off ${backoff}ms before next try.`);
+        await sleep(backoff);
+      }
+      // if this was the last attempt, break and throw below
+      if (attempt === attempts) break;
+    }
+  }
+  // After retries, throw last error to be handled by caller
+  throw lastError;
+}
+
 function getContractOfferId(contractOffer) {
   if (!contractOffer || typeof contractOffer !== "object") return null;
   const value = contractOffer.id ?? contractOffer.contractOfferId ?? null;
@@ -672,7 +704,7 @@ async function fetchContractOfferDetailById(contractOfferId, apiKey, urlCandidat
   for (const template of urlCandidates) {
     const url = template.replace("{id}", encodeURIComponent(contractOfferId));
     try {
-      return await fetchJson(url, apiKey);
+      return await fetchWithRetry(url, apiKey);
     } catch (error) {
       if (error.statusCode === 404) {
         continue;
@@ -690,6 +722,8 @@ async function writeJson(filePath, data) {
   await mkdir(path.dirname(filePath), { recursive: true });
   await writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
 }
+
+
 
 
 
