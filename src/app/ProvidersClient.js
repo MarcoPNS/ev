@@ -312,11 +312,6 @@ export default function ProvidersClient({ providers }) {
           </TableBody>
         </Table>
       </TableContainer>
-      <Box sx={{ mt: 2, fontSize: 13, color: '#666' }}>
-        {results.map((r) => r.footnote && (
-          <div key={r.name + "-footnote"}>{r.name}: {r.footnote}</div>
-        ))}
-      </Box>
       <Dialog open={commentPopup.open} onClose={() => setCommentPopup({ open: false, text: "" })}>
         <DialogTitle>Info
           <IconButton
