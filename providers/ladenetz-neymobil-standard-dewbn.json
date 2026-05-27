@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / NeyMobil - Standard",
+  "acPrice": 0.46,
+  "dcPrice": 0.63,
+  "acRoamingPrice": 0.5,
+  "dcRoamingPrice": 0.66,
+  "basicFee": 4.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €19.95 Max 5 cards Für regelmäßiges laden",
+  "link": "https://sw-norderney.ladecloud.de/contract/details/93d16d98-d1f0-4acd-a719-3a4042310e5a",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "06aa541c-af77-40bd-afad-a235202a5f1a"
+}

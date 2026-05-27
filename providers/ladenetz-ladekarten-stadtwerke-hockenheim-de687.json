@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Ladekarten Stadtwerke Hockenheim",
+  "acPrice": 0.62,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.74,
+  "dcRoamingPrice": 0.79,
+  "basicFee": 1.1,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 10 cards",
+  "link": "https://stadtwerke-hockenheim.ladecloud.de/contract/details/4b748ecf-364d-4406-bebc-f42c4d816d88",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "8b29b2a5-60b4-48e8-b509-cdc070778b6d"
+}

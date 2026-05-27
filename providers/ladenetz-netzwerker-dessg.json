@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Netzwerker",
+  "acPrice": 0.57,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.57,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 5 cards Blockierungsgebühr: 0,1 € je Minute ab 240 Minuten (Maximalbetrag der Blockierungsgebühr - 12,00 €)",
+  "link": "https://sw-strausberg.ladecloud.de/contract/details/13a7f9da-0e92-4406-a796-adc07cb24dcf",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "8f85e581-7edc-41c7-9d22-e31a8ddbe113"
+}

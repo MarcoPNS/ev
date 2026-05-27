@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / RenExpert",
+  "acPrice": 0.65,
+  "dcPrice": 0.77,
+  "acRoamingPrice": 0.65,
+  "dcRoamingPrice": 0.77,
+  "basicFee": 7.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €4.99 Max 50 cards",
+  "link": "https://renexpert.ladecloud.de/contract/details/2010696a-b8be-4f55-9a42-f3239bf1462c",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "cf9e9886-d6f0-4fbb-9b06-f7974b7fd7cb"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / E-Mobility",
+  "acPrice": 0.6,
+  "dcPrice": 0.7,
+  "acRoamingPrice": 0.6,
+  "dcRoamingPrice": 0.7,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 10 cards Im Anschluss an Ihre Anmeldung werden wir prüfen, ob Sie mit der Stadtwerke Kleve GmbH einen CleverStrom- oder CleverGas-Vertrag geschlossen haben. Falls Sie Clever-Kunde sind, werden wir Ihnen eine E-Mail mit unserem Freischaltcode zukommen lassen. Mit diesem können Sie sebstständig den Clever E-Mobility-Tarif auswählen.",
+  "link": "https://stadtwerke-kleve.ladecloud.de/contract/details/9c083198-1a23-4e4f-93bf-8be68e649b1c",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "b2ce16b9-6cb1-49b8-9521-1b82159c0cb5"
+}

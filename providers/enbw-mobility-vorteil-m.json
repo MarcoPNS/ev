@@ -1,0 +1,16 @@
+{
+  "name": "EnBW mobility+ Vorteils-Tarif M",
+  "acPrice": 0.41,
+  "dcPrice": 0.41,
+  "acRoamingPrice": 0.89,
+  "dcRoamingPrice": 0.89,
+  "basicFee": 5.99,
+  "supportedNetworks": ["EnBW"],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "",
+  "comment": "Nur für EnBW-Kunden (Gas/Strom) verfügbar.",
+  "link": "https://www.enbw.com/elektromobilitaet/produkte/ladetarife#vorteilstarif",
+  "isAffiliate": false,
+  "hidden": false
+}

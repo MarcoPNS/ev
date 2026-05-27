@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Normalpreis für Neukunden**",
+  "acPrice": 0.55,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 9.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €9.95 Max 50 cards ** Dieser Tarif gilt für alle Personen, die keinen aktiven Vertrag zur Energiebelieferung mit Strom oder Erdgas mit der MONTANA Energieversorgung GmbH & Co. KG haben.",
+  "link": "https://montana.ladecloud.de/contract/details/fb5d9a54-9b25-4112-880c-8dc4314f74b0",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "bef570cd-37bc-4a5b-a4a5-339cd9d12f73"
+}

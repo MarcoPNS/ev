@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Basis-Tarif",
+  "acPrice": 0.59,
+  "dcPrice": 0.74,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.74,
+  "basicFee": 3,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €15.00 Max 50 cards",
+  "link": "https://stawag.ladecloud.de/contract/details/622eab6a-7dcc-4154-b57e-68d67c100a9e",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "ef95405d-773a-4e3a-a508-15002f1d50a6"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / eCharge Ladestrom",
+  "acPrice": 0.54,
+  "dcPrice": 0.66,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.7,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 1 cards",
+  "link": "https://echarge.ladecloud.de/contract/details/a831f760-3507-4d3a-9ee1-6c08cd0376bc",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "a9026b63-1faa-4a3f-b26c-e65002582f12"
+}

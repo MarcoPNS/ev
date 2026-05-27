@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / HAB_KombiE",
+  "acPrice": 0.49,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.6,
+  "dcRoamingPrice": 0.6,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €15.00 Max 50 cards",
+  "link": "https://sw-hammelburg.ladecloud.de/contract/details/3a7a0640-ff9b-4e8e-80a8-2bdbfcefd1d6",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "bbd51641-9b30-492c-9a28-24f448bb1039"
+}

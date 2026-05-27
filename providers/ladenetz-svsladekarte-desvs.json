@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / SVSladekarte",
+  "acPrice": 0.54,
+  "dcPrice": 0.64,
+  "acRoamingPrice": 0.64,
+  "dcRoamingPrice": 0.84,
+  "basicFee": 3.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 5 cards Die Kartegebühr entfällt, wenn der Kunde gleichzeitig auch Strom-, Gas-, oder Wärmekunde der SVS oder Gaskunde des ZVB ist",
+  "link": "https://svs.ladecloud.de/contract/details/c7db41fe-7ba6-4712-991d-7f38392e8faf",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "a68caa73-af89-4d6f-a149-1e87b64890de"
+}

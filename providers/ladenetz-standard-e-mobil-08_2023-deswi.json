@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Standard E-Mobil 08_2023",
+  "acPrice": 0.57,
+  "dcPrice": 0.73,
+  "acRoamingPrice": 0.57,
+  "dcRoamingPrice": 0.73,
+  "basicFee": 2,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €15.00 Max 10 cards *Ionity & Extern AC (zzgl. 0,06€/Min. ab 120 Min) *Ionity & Extern DC (zzgl. 0,13€/Min. ab 30 Min)",
+  "link": "https://swilmenau.ladecloud.de/contract/details/66678bf1-5e10-477b-8840-f0bd17ca9b12",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "c8a1aa3d-05e5-4cff-b387-7e29d3925c79"
+}

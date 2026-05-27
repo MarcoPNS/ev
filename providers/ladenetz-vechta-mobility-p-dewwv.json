@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Vechta-Mobility-P",
+  "acPrice": 0.58,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.6,
+  "dcRoamingPrice": 0.72,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €9.99 Max 5 cards",
+  "link": "https://ww-vechta.ladecloud.de/contract/details/623391f5-6bad-489a-aff7-0a9f64a60a92",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "79207c1a-15c0-4b54-87c3-72bac2df2b60"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / StWB e-mobil",
+  "acPrice": 0.53,
+  "dcPrice": 0.65,
+  "acRoamingPrice": 0.57,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 4.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 5 cards Die Mindestvertragslaufzeit beträgt 1 Monat. Die Kündigungsfrist beträgt 4 Wochen zum Ende des Monats. ** Zwischen 9 bis 19 Uhr fällt nach der 4. Stunde des Ladevorgangs eine Blockiergebühr i.H.v. 0,10€/Min. an (max. 10€/Ladevorgang). *** Nach der 12. Stunde des Ladevorgangs fällt eine Blockiergebühr i.H.v. 0,10€/Min. an (max. 10€/Ladevorgang).",
+  "link": "https://stwb.ladecloud.de/contract/details/9f8753e5-5ae0-42e0-ae25-e4347e543bd2",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "0b2eabda-0dac-4e90-b56c-8f553eb8b72b"
+}

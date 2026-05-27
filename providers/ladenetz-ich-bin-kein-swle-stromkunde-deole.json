@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Ich bin KEIN SWLE-Stromkunde",
+  "acPrice": 0.55,
+  "dcPrice": 0.7,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.7,
+  "basicFee": 5.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €2.99 Max 10 cards Werden Sie SWLE-Stromkunde und sichern Sie sich Ihre Ersparnis bei der Grundgebühr.",
+  "link": "https://stadtwerke-le.ladecloud.de/contract/details/c26ce0e6-f31d-4749-b81e-5664f9379296",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "121eb98b-50ea-4833-9dbc-a2319d0fb3d2"
+}

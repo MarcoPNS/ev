@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Rheine  E-Mobilität",
+  "acPrice": 0.59,
+  "dcPrice": 0.71,
+  "acRoamingPrice": 0.74,
+  "dcRoamingPrice": 0.86,
+  "basicFee": 2,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 20 cards Ein Basis Tarif wird immer dann für die Preisberechnung verwendet, wenn kein anderer Preis für eine bestimmte Transaktion hinterlegt ist.",
+  "link": "https://swrheine.ladecloud.de/contract/details/f2f90d05-148c-4e30-978c-20f9a554719e",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "096ed953-49fb-47b5-90d6-cad64a728428"
+}

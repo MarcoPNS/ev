@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Mein Stadtwerke Strom Mobil",
+  "acPrice": 0.59,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 5.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 100 cards",
+  "link": "https://sw-borken.ladecloud.de/contract/details/573d16bf-fd66-443b-9d20-67429cb32573",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "a0ebc98e-453c-4561-8417-78aeb80dc7c8"
+}

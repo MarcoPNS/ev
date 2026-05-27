@@ -60,6 +60,7 @@ const exampleContractOffer = {
 
 const exampleProvider = {
   id: "3d09dc89-0394-463e-9d6e-eb07dd3bf1be",
+  operatorBdewId: "DETEST",
   name: "17er Oberlandenergie",
   address: { city: "Bad Tölz", country: "DE", zipCode: "83646" },
   contact: { email: "info@17er.de" },
@@ -71,6 +72,7 @@ const exampleProvider = {
 const exampleContractOfferDetail = {
   id: "8d9b0248-2f88-449d-93b3-4e9399051076",
   furtherContractInformationUrl: "https://17er.ladecloud.de/contract/details/8d9b0248-2f88-449d-93b3-4e9399051076",
+  additionalInformation: "This is additional info from the contract offer. Ladenetz Verbund included.",
 };
 
 // Import der Mapper-Funktionen (müssten aus dem Hauptskript extrahiert sein)
@@ -206,8 +208,10 @@ function buildProviderLink(provider, providerId, contractOfferDetail = null) {
   return "";
 }
 
-function generateSlug(name) {
-  return `ladenetz-${sanitizeFileName(name)}`;
+function generateSlugWithOperator(name, operatorId) {
+  const base = sanitizeFileName(name);
+  const op = operatorId ? sanitizeFileName(String(operatorId)) : null;
+  return op ? `ladenetz-${base}-${op}` : `ladenetz-${base}`;
 }
 
 function sanitizeFileName(value) {
@@ -259,6 +263,11 @@ function mapContractOfferToProvider(contractOffer, provider, providerId, offerIn
   if (contractOffer.maxCountOfCards) {
     comments.push(`Max ${contractOffer.maxCountOfCards} cards`);
   }
+  const additionalInfo = (contractOfferDetail && contractOfferDetail.additionalInformation) || contractOffer.additionalInformation;
+  if (additionalInfo && String(additionalInfo).trim()) {
+    const info = String(additionalInfo).trim().replace(/\s+/g, ' ');
+    comments.push(info);
+  }
 
   return {
     name,
@@ -276,7 +285,7 @@ function mapContractOfferToProvider(contractOffer, provider, providerId, offerIn
     isAffiliate: false,
     hidden: false,
     sourceProviderId: providerId,
-    _slug: generateSlug(contractOfferName),
+    _slug: generateSlugWithOperator(contractOfferName, exampleProvider.operatorBdewId || exampleProvider.bdewId || exampleProvider.id),
   };
 }
 
@@ -305,7 +314,7 @@ try {
       name: "Name correctly formatted",
       ok: mapped.name === "ladenetz.de / 17er Autostrom",
     },
-    { name: "Slug correctly generated", ok: slug === "ladenetz-17er-autostrom" },
+    { name: "Slug correctly generated", ok: slug === "ladenetz-17er-autostrom-detest" },
     { name: "AC price present", ok: mapped.acPrice === 0.46 },
     { name: "DC price present", ok: mapped.dcPrice === 0.56 },
     { name: "AC roaming present", ok: mapped.acRoamingPrice === 0.49 },
@@ -316,6 +325,7 @@ try {
     { name: "Link present", ok: mapped.link.length > 0 },
     { name: "Link from contract-offer details", ok: mapped.link === exampleContractOfferDetail.furtherContractInformationUrl },
     { name: "Comment with card fee", ok: mapped.comment.includes("9.99") },
+    { name: "Comment includes additional info", ok: mapped.comment.includes("additional info from the contract offer") },
   ];
 
   console.log("\nValidations:");
@@ -336,19 +346,3 @@ try {
   console.error("✗ Error during mapping:", error.message);
   process.exit(1);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

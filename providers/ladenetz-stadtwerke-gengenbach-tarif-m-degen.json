@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Stadtwerke Gengenbach Tarif M",
+  "acPrice": 0.54,
+  "dcPrice": 0.65,
+  "acRoamingPrice": 0.54,
+  "dcRoamingPrice": 0.65,
+  "basicFee": 4.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €12.00 Max 20 cards Bei der Tarifauswahl empfehlen wir Ihnen die von Ihnen benötigte Strom-Verbrauchsmenge (Ladestrommenge) in kWh pro Monat abzuschätzen. Ab einem Verbrauch von über 87,25 kWh im Monat lohnt sich die Wahl des Tarifs M. Dies ist der Fall, wenn Ihr Elektrofahrzeug einen durchschnittlichen Verbrauch von ca. 15 kWh auf 100 Km hat und die Jahreskilometerleistung bei rund 7.000 km liegt",
+  "link": "https://sw-gengenbach.ladecloud.de/contract/details/44b95290-8261-4fbb-8c1d-e5002fadc20f",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "2724fc76-4497-4e88-809f-d76201291274"
+}

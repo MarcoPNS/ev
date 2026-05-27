@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / AutoStrom unterwegs",
+  "acPrice": 0.56,
+  "dcPrice": 0.61,
+  "acRoamingPrice": 0.56,
+  "dcRoamingPrice": 0.61,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €12.00 Max 1 cards Unser Basis-Tarif - natürlich auch mit 100% Ökostrom.",
+  "link": "https://sw-suedholstein.ladecloud.de/contract/details/7e99735f-cd97-4605-b016-026e4b161c4f",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "d8d0b0ca-f895-4c23-a6f4-4df2c057495b"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Ladestrom Dorfen Online",
+  "acPrice": 0.59,
+  "dcPrice": 0.7,
+  "acRoamingPrice": 0.62,
+  "dcRoamingPrice": 0.73,
+  "basicFee": 3,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 100 cards *Blockiergebühr maximal 12€",
+  "link": "https://sw-dorfen.ladecloud.de/contract/details/aa764818-3dc0-41fb-ba9a-63362ee0202e",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "d7612a33-6c9f-4e51-b00f-353cbf51590d"
+}

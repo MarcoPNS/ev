@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Abonnement Dreisamtal",
+  "acPrice": 0.46,
+  "dcPrice": 0.54,
+  "acRoamingPrice": 0.57,
+  "dcRoamingPrice": 0.67,
+  "basicFee": 2.49,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 5 cards",
+  "link": "https://halstrup-walcher.ladecloud.de/contract/details/342871b4-7ca3-44fd-a723-6c7f6c845244",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "38cfd29c-dc62-4bbc-882b-6a319f8c78f1"
+}

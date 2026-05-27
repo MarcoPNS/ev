@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Rossreiter Pferdestärke Basis S",
+  "acPrice": 0.59,
+  "dcPrice": 0.59,
+  "acRoamingPrice": null,
+  "dcRoamingPrice": null,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €9.90 Max 5 cards",
+  "link": "https://rossreiter.ladecloud.de/contract/details/afaed46b-6ae8-4229-b5c9-fdbffa487430",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "edac0d31-e1be-4436-8d39-12966ec60e50"
+}

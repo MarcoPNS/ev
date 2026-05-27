@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Viellader",
+  "acPrice": 0.58,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.58,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 10 cards *Maximale Standgebühr: 25€",
+  "link": "https://sw-gotha.ladecloud.de/contract/details/d350686f-2f32-4d09-be8b-11eed95c6449",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "972bdedb-bc3e-4e5f-8b48-d0b0aff945f5"
+}

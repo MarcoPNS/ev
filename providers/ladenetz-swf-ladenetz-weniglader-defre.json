@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / SWF-Ladenetz Weniglader",
+  "acPrice": 0.55,
+  "dcPrice": 0.67,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.67,
+  "basicFee": 2.5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €3.50 Max 5 cards Hinweis: Bei der Tarifauswahl empfehlen wir Ihnen die Strom-Verbrauchsmenge (Lademenge) in kWh pro Monat abzuschätzen. Ab einem Verbrauch von über 50 kWh im Monat lohnt sich die Wahl des Viellader-Tarifs. Dies entspricht einer Fahrleistung von etwa 3.500 km/a mit dem Elektro-Antrieb.",
+  "link": "https://sw-freudenstadt.ladecloud.de/contract/details/7f14ccd6-119f-4bff-b25c-c1983dd61c73",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "b52bfb2c-4d93-4a0f-bd54-cb8991d60b1f"
+}

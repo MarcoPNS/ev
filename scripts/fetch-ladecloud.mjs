@@ -407,6 +407,13 @@ function mapContractOfferToProvider(contractOffer, provider, providerId, offerIn
   if (contractOffer.maxCountOfCards) {
     comments.push(`Max ${contractOffer.maxCountOfCards} cards`);
   }
+  // Prefer detailed additionalInformation from the contract-offer detail endpoint
+  const additionalInfo = (contractOfferDetail && contractOfferDetail.additionalInformation) || contractOffer.additionalInformation;
+  if (additionalInfo && String(additionalInfo).trim()) {
+    // Normalize whitespace and keep it readable
+    const info = String(additionalInfo).trim().replace(/\s+/g, ' ');
+    comments.push(info);
+  }
 
   return {
     name,
@@ -424,7 +431,7 @@ function mapContractOfferToProvider(contractOffer, provider, providerId, offerIn
     isAffiliate: false,
     hidden: false,
     sourceProviderId: providerId,
-    _slug: generateSlug(contractOfferName),
+    _slug: generateSlugWithOperator(contractOfferName, provider.operatorBdewId || provider.bdewId || provider.id),
   };
 }
 
@@ -563,8 +570,11 @@ function buildProviderLink(provider, providerId, contractOfferDetail = null) {
   return "";
 }
 
-function generateSlug(name) {
-  return `ladenetz-${sanitizeFileName(name)}`;
+// New helper that accepts optional operator identifier to avoid filename collisions
+function generateSlugWithOperator(name, operatorId) {
+  const base = sanitizeFileName(name);
+  const op = operatorId ? sanitizeFileName(String(operatorId)) : null;
+  return op ? `ladenetz-${base}-${op}` : `ladenetz-${base}`;
 }
 
 function normalizeList(payload, preferredKeys = []) {
@@ -666,7 +676,7 @@ async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchWithRetry(url, apiKey, attempts = 2, baseDelayMs = 5000) {
+async function fetchWithRetry(url, apiKey, attempts = 3, baseDelayMs = 10000) {
   let lastError = null;
   for (let attempt = 1; attempt <= attempts; attempt++) {
     try {
@@ -722,30 +732,3 @@ async function writeJson(filePath, data) {
   await mkdir(path.dirname(filePath), { recursive: true });
   await writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

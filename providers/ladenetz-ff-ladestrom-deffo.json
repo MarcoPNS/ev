@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / FF-Ladestrom",
+  "acPrice": 0.6,
+  "dcPrice": 0.7,
+  "acRoamingPrice": 0.6,
+  "dcRoamingPrice": 0.7,
+  "basicFee": 5.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 20 cards",
+  "link": "https://sw-ffo.ladecloud.de/contract/details/d589a28b-c322-489a-aa78-8e33ffaa3a05",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "3280a2dc-3291-46f6-b7cd-22b1b55ee584"
+}

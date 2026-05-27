@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / SW Gronau E-Mobility Tarif",
+  "acPrice": 0.48,
+  "dcPrice": 0.58,
+  "acRoamingPrice": 0.65,
+  "dcRoamingPrice": 0.75,
+  "basicFee": 9.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 20 cards",
+  "link": "https://stadtwerke-gronau.ladecloud.de/contract/details/d0770099-5ba1-4d55-be6a-6203c4bab800",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "cc4a1f83-97e0-41fd-bad2-7529ede25e3f"
+}

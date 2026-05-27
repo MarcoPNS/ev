@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / SachsenwaldStrom mobil 2.0",
+  "acPrice": 0.5,
+  "dcPrice": 0.6,
+  "acRoamingPrice": 0.69,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 2,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €2.00 Max 500 cards",
+  "link": "https://ewerk.ladecloud.de/contract/details/6bad7271-c9e7-450e-82de-7371395db6a5",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "a438eccc-dac2-4a11-a4f4-993b8ae250f0"
+}
