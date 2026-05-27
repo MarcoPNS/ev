@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Ökostrom-Ladekarte",
+  "acPrice": 0.55,
+  "dcPrice": 0.67,
+  "acRoamingPrice": 0.6,
+  "dcRoamingPrice": 0.74,
+  "basicFee": 4,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 10 cards",
+  "link": "https://stwwkbg.ladecloud.de/contract/details/a4cd58b1-dfbd-4849-a73c-8a79cc97720b",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "88624c5e-d728-46de-983a-52c7c649b618"
+}

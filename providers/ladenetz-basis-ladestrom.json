@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Basis-Ladestrom",
+  "acPrice": 0.6,
+  "dcPrice": 0.83,
+  "acRoamingPrice": 0.77,
+  "dcRoamingPrice": 0.89,
+  "basicFee": 4.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 10 cards",
+  "link": "https://backend.ladecloud.de/storage-service/files/8bad0c86-140c-4ed8-9f09-6758f978467f",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "3c23a838-432a-4252-9970-51befdf1334e"
+}

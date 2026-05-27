@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Tarif SE-extern",
+  "acPrice": 0.59,
+  "dcPrice": 0.59,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €12.00 Max 10 cards",
+  "link": "https://backend.ladecloud.de/storage-service/files/a4556a2c-d082-48c5-8082-2560bcd427d0",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "3a7a8d1c-ace0-40b3-bbe5-524b79a4b5ea"
+}

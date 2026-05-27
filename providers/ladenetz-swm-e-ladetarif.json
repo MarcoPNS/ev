@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / SWM e-Ladetarif",
+  "acPrice": 0.46,
+  "dcPrice": 0.51,
+  "acRoamingPrice": 0.62,
+  "dcRoamingPrice": 0.65,
+  "basicFee": 3.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €2.99 Max 5 cards",
+  "link": "https://sw-muehlacker.ladecloud.de/contract/details/42fca08b-f3db-40e3-a45a-fa429cf0eb15",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "179ce62e-c902-45eb-bfdf-26fe58ca2ad4"
+}

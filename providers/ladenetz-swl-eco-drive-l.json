@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / swL Eco Drive L",
+  "acPrice": 0.42,
+  "dcPrice": 0.52,
+  "acRoamingPrice": 0.45,
+  "dcRoamingPrice": 0.55,
+  "basicFee": 17.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €2.90 Max 1 cards",
+  "link": "https://stadtwerkelangenfeld.ladecloud.de/contract/details/c23b452b-699b-426e-9006-07db490efece",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "dd05599e-3569-4f04-94ad-5ce6e37c5d21"
+}

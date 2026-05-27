@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / m.charge",
+  "acPrice": 0.48,
+  "dcPrice": 0.58,
+  "acRoamingPrice": 0.6,
+  "dcRoamingPrice": 0.7,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 10 cards",
+  "link": "https://stadtwerkemuehlheim.ladecloud.de/contract/details/e4038895-1078-449c-8eca-bb224933e2ba",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "29883f99-7b4e-4e40-a531-e45be5cf6a16"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / EVI e-mobil Classic",
+  "acPrice": 0.6,
+  "dcPrice": 0.72,
+  "acRoamingPrice": 0.7,
+  "dcRoamingPrice": 0.9,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €9.99 Max 100 cards",
+  "link": "https://evi-hildesheim.ladecloud.de/contract/details/275f9bfc-95fd-48e8-a974-cabe325e17c7",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "f2855638-e866-4988-997e-94b309f122e8"
+}

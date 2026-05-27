@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / E-LADEN Standard",
+  "acPrice": 0.62,
+  "dcPrice": 0.72,
+  "acRoamingPrice": 0.62,
+  "dcRoamingPrice": 0.72,
+  "basicFee": 3,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 50 cards",
+  "link": "https://sw-jena.ladecloud.de/contract/details/a2465f08-927c-41f5-8edf-8a67ac0608db",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "a5baefd1-99d8-417e-8da3-446456b79ff0"
+}

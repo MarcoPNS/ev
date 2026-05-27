@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / KommStrom E-Mobil BASIC",
+  "acPrice": 0.52,
+  "dcPrice": 0.64,
+  "acRoamingPrice": 0.6,
+  "dcRoamingPrice": 0.72,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 10 cards",
+  "link": "https://kommenergie.ladecloud.de/contract/details/d4c6ad30-7377-4817-b3c8-8e6dcc8c721a",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "1d0fa778-b066-4407-86b3-f445733927f4"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / E-Mobilität Basis",
+  "acPrice": 0.51,
+  "dcPrice": 0.69,
+  "acRoamingPrice": 0.51,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 4.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 5 cards",
+  "link": "https://emob-stephan.ladecloud.de/contract/details/63609216-ff43-47cd-a117-2d552e720249",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "02834655-5291-4e67-9109-b611ff048b22"
+}

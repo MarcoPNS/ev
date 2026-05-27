@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / buDi mobile flex",
+  "acPrice": 0.55,
+  "dcPrice": 0.66,
+  "acRoamingPrice": null,
+  "dcRoamingPrice": null,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 5 cards",
+  "link": "https://buchholz-digital.ladecloud.de/contract/details/94f6e844-00ab-4a0a-86d2-0776cf8bea7f",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "bd1451b4-badf-4a17-b6ac-1a39b2891550"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Mühlstrom Mobil",
+  "acPrice": 0.64,
+  "dcPrice": 0.74,
+  "acRoamingPrice": 0.64,
+  "dcRoamingPrice": 0.74,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 20 cards",
+  "link": "https://sw-muehlhausen.ladecloud.de/contract/details/d9963bf5-2531-4a20-867d-eae85289bc78",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "e7f4630f-dbca-4856-98fc-486c9ab77b7a"
+}

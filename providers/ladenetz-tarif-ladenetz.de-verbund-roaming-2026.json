@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Tarif ladenetz.de Verbund & Roaming 2026",
+  "acPrice": 0.5,
+  "dcPrice": 0.79,
+  "acRoamingPrice": 0.65,
+  "dcRoamingPrice": 0.99,
+  "basicFee": 5.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €1.50 Max 20 cards",
+  "link": "https://helmer-net.ladecloud.de/contract/details/48f7cc40-16cd-490d-a0ee-524f07353dbb",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "854e7137-107d-4eb7-9c37-194417d02d61"
+}

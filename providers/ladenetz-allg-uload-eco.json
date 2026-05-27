@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Allgäuload Eco",
+  "acPrice": 0.48,
+  "dcPrice": 0.58,
+  "acRoamingPrice": 0.58,
+  "dcRoamingPrice": 0.68,
+  "basicFee": 3,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €4.90 Max 5 cards",
+  "link": "https://abc-wagner.ladecloud.de/contract/details/a32bd675-5f9b-4ac6-b821-ac955508ed67",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "039fd9be-3207-4fd6-9a4d-da9dcc5d7f19"
+}

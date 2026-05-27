@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / mein E-Mobil (Für Stromkunden der SWS)",
+  "acPrice": 0.43,
+  "dcPrice": 0.53,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.65,
+  "basicFee": 0,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €12.50 Max 20 cards",
+  "link": "https://sws-energie.ladecloud.de/contract/details/c2a61530-ca1e-4e7a-ab5f-68190a1d62bc",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "f2b00e0c-cbea-4c69-8e64-f475d636952d"
+}

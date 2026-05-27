@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Öko-Direkt",
+  "acPrice": 0.59,
+  "dcPrice": 0.59,
+  "acRoamingPrice": 0.7,
+  "dcRoamingPrice": 0.72,
+  "basicFee": 3,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €20.00 Max 10 cards",
+  "link": "https://oekoblick-afl.ladecloud.de/contract/details/a468dc36-47f8-4f8a-875f-b2c6fed2a552",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "9b3fcdb2-b708-4396-b1b4-fe2f83fc09bd"
+}

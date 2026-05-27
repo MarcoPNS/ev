@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / e360 ultra",
+  "acPrice": 0.49,
+  "dcPrice": 0.59,
+  "acRoamingPrice": 0.49,
+  "dcRoamingPrice": 0.59,
+  "basicFee": 5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €2.99 Max 5 cards",
+  "link": "https://energie360.ladecloud.de/contract/details/d42c2bba-70d9-4d72-8b8b-8377b6b1354f",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "0a2ccf87-0bdd-4f0c-95b2-b8a8f33be55b"
+}

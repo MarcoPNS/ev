@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / e360 prime",
+  "acPrice": 0.19,
+  "dcPrice": 0.54,
+  "acRoamingPrice": 0.19,
+  "dcRoamingPrice": 0.54,
+  "basicFee": 19.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 5 cards",
+  "link": "https://energie360.ladecloud.de/contract/details/8e8c54d7-6989-4310-a5b2-411c5819c9c5",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "0a2ccf87-0bdd-4f0c-95b2-b8a8f33be55b"
+}

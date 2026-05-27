@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Huntetal Mobil",
+  "acPrice": 0.49,
+  "dcPrice": 0.67,
+  "acRoamingPrice": 0.54,
+  "dcRoamingPrice": 0.74,
+  "basicFee": 7.5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €10.00 Max 20 cards",
+  "link": "https://sw-huntetal.ladecloud.de/contract/details/b276df91-3d83-40b9-998f-1c694c13f859",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "1d64b6c3-019f-4065-8d8c-28e23aee8834"
+}

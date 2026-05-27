@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / EWF Ladetarif",
+  "acPrice": 0.55,
+  "dcPrice": 0.7,
+  "acRoamingPrice": 0.55,
+  "dcRoamingPrice": 0.7,
+  "basicFee": 4,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €30.00 Max 10 cards",
+  "link": "https://ewf.ladecloud.de/contract/details/4d1d684f-255f-4d34-86dc-6cc23f5fffdb",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "094c9aae-3cdd-43b9-8963-dae76896e47e"
+}

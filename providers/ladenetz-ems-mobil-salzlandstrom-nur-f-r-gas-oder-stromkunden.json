@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / EMS-Mobil Salzlandstrom (nur für Gas-/oder Stromkunden)",
+  "acPrice": 0.53,
+  "dcPrice": 0.66,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.71,
+  "basicFee": 2.5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €5.00 Max 10 cards",
+  "link": "https://ems.ladecloud.de/contract/details/014bd071-caec-4625-8009-a8bf7a598529",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "f9572546-0ca9-48b7-8473-5cfbe1adde71"
+}

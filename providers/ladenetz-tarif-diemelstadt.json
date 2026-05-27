@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Tarif Diemelstadt",
+  "acPrice": 0.65,
+  "dcPrice": 0.75,
+  "acRoamingPrice": 0.65,
+  "dcRoamingPrice": 0.75,
+  "basicFee": 3.56,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €4.99 Max 10 cards",
+  "link": "https://svgeladestation.ladecloud.de/contract/details/bb724ac6-ec03-4a73-a46d-c363fa1cd3ac",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "996cd552-0478-4e65-8c26-5723041566ca"
+}

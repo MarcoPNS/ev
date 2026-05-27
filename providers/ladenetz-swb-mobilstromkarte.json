@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / swb Mobilstromkarte",
+  "acPrice": 0.47,
+  "dcPrice": 0.57,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.69,
+  "basicFee": 3.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 20 cards",
+  "link": "https://backend.ladecloud.de/storage-service/files/8fe79365-5b31-42a0-9612-41d9ca1c6e3b",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "04727c7b-db67-4758-9d0a-8f93dc92c23c"
+}

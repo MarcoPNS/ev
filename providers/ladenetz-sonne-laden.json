@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Sonne laden!",
+  "acPrice": 0.49,
+  "dcPrice": 0.59,
+  "acRoamingPrice": 0.59,
+  "dcRoamingPrice": 0.79,
+  "basicFee": 5.5,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 5 cards",
+  "link": "https://ews-schoenau.ladecloud.de/contract/details/a872c345-cd4a-4320-b870-73b2ea05e340",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "0ec474fe-ba76-45fd-93f5-6166f69f3ac8"
+}
