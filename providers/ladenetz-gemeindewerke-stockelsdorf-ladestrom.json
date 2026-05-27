@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Gemeindewerke Stockelsdorf - Ladestrom",
+  "acPrice": 0.49,
+  "dcPrice": 0.59,
+  "acRoamingPrice": null,
+  "dcRoamingPrice": null,
+  "basicFee": 3.99,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Max 5 cards",
+  "link": "https://gw-stockelsdorf.ladecloud.de/contract/details/fb0f2258-bd5c-48a1-927e-b4925cbfb869",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "0e00043e-4ea3-46b8-9752-b3b93d70c2e8"
+}

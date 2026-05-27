@@ -1,0 +1,19 @@
+{
+  "name": "ladenetz.de / Mobilstrom",
+  "acPrice": 0.59,
+  "dcPrice": 0.79,
+  "acRoamingPrice": 0.65,
+  "dcRoamingPrice": 0.89,
+  "basicFee": 6.95,
+  "supportedNetworks": [
+    "ladenetz.de"
+  ],
+  "chargingStations": 800000,
+  "country": "DE",
+  "footnote": "Auto-imported on 5/27/2026",
+  "comment": "Card fee once: €49.00 Max 10 cards",
+  "link": "https://swsemobilmitstrom.ladecloud.de/contract/details/26afee54-e668-4ddf-a592-dd57a45d25f9",
+  "isAffiliate": false,
+  "hidden": false,
+  "sourceProviderId": "db70d46e-aaff-4909-8a59-ccf67781c56e"
+}
